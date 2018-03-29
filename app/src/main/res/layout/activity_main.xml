@@ -36,6 +36,12 @@
         android:text="加载动画"/>
 
     <Button
+        android:id="@+id/bt_SectionUse"
+        style="@style/bt_ordinary"
+        android:onClick="onClick"
+        android:text="分组布局"/>
+
+    <Button
         android:id="@+id/bt_multiLayout"
         style="@style/bt_ordinary"
         android:onClick="onClick"
@@ -58,5 +64,11 @@
         style="@style/bt_ordinary"
         android:onClick="onClick"
         android:text="加载、无数据、重试"/>
+
+    <Button
+        android:id="@+id/bt_adDialog"
+        style="@style/bt_ordinary"
+        android:onClick="onClick"
+        android:text="广告弹窗"/>
 
 </LinearLayout>

@@ -29,21 +29,21 @@ public class MultiLayoutAdapter extends BaseMultiItemQuickAdapter<MultipleItem, 
 
     @Override
     protected void convert(BaseViewHolder helper, MultipleItem item) {
-        switch (helper.getItemViewType()) {
+        helper.setText(R.id.tv, helper.getLayoutPosition() + "");
+        /*switch (helper.getItemViewType()) {
             case MultipleItem.TEXT:
-                helper.setText(R.id.tv, item.getContent());
+                //helper.setText(R.id.tv, item.getContent());
                 break;
             case MultipleItem.IMG_TEXT:
                 switch (helper.getLayoutPosition() % 2) {
                     case 0:
-                        helper.setImageResource(R.id.iv, R.mipmap.animation_img1);
+                        //helper.setImageResource(R.id.iv, R.mipmap.animation_img1);
                         break;
                     case 1:
-                        helper.setImageResource(R.id.iv, R.mipmap.animation_img2);
+                        //helper.setImageResource(R.id.iv, R.mipmap.animation_img2);
                         break;
-
                 }
                 break;
-        }
+        }*/
     }
 }

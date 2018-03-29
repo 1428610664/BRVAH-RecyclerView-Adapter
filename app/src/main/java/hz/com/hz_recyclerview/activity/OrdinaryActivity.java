@@ -56,7 +56,7 @@ public class OrdinaryActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.addItemDecoration(new DividerItemDecoration(OrdinaryActivity.this, DividerItemDecoration.VERTICAL_LIST));
         OrdinaryAdapter adapter = new OrdinaryAdapter(R.layout.item_city, mData);
-        adapter.openLoadAnimation(ALPHAIN);
+        adapter.openLoadAnimation(ALPHAIN); // 加载动画类型
         adapter.isFirstOnly(false);   // 是否第一次才加载动画
         mRecyclerView.setAdapter(adapter);
         mRecyclerView.addOnItemTouchListener(new OnItemClickListener() {

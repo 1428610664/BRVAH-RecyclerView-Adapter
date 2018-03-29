@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_loadAnimation:
                 openActivity(AnimationActivity.class);
                 break;
+            case R.id.bt_SectionUse:
+                openActivity(SectionUseActivity.class);
+                break;
             case R.id.bt_multiLayout:
                 openActivity(MultiLayoutActivity.class);
                 break;
@@ -42,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_emptyView:
                 openActivity(EmptyViewActivity.class);
+                break;
+            case R.id.bt_adDialog:
+                openActivity(AdDialogActivity.class);
                 break;
         }
     }

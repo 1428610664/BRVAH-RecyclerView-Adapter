@@ -23,10 +23,12 @@
         <activity android:name=".activity.OrdinaryActivity"/>
         <activity android:name=".activity.AddHeaderFooterActivity"/>
         <activity android:name=".activity.AnimationActivity"/>
+        <activity android:name=".activity.SectionUseActivity"/>
         <activity android:name=".activity.MultiLayoutActivity"/>
         <activity android:name=".activity.DragActivity"/>
         <activity android:name=".activity.EventActivity"/>
         <activity android:name=".activity.EmptyViewActivity"/>
+        <activity android:name=".activity.AdDialogActivity"/>
     </application>
 
 </manifest>
